@@ -1,2 +1,2 @@
 # svab.eshop
-projekt maturita eshop
+ eshop

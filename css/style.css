@@ -1,0 +1,119 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+h1 {
+    text-align: center;
+}
+
+
+h2 {
+    text-align: center;
+}
+
+
+.navbar ul{
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+.navbar span a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+
+
+.navbar span a:hover {
+    background-color: lightgray;
+}
+
+
+table { 
+    width: 100%;
+}
+
+
+table th,
+table td {
+    padding: 15px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+}
+
+
+/*form {
+    
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+*/
+
+/*
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px; /*kdyz nebude zakomentovan form{} bude 100%
+}
+*/
+
+.box {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    padding: 30px;
+    margin-bottom: 20px;
+    width: 400px; /*kdyz nebude zakomentovan form{} bude 100%*/
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+input {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+input[type="checkbox"] {
+    width: auto;
+}
+
+
+input[type="submit"] {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+input[name="logout"] {
+    width: 460px;
+    
+}
